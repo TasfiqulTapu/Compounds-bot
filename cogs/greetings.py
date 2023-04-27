@@ -8,6 +8,11 @@ class Greetings(commands.Cog):
 
   @commands.command()
   async def hello(self,ctx):
+    name = ctx.author.name
+    if name[-1]=="u": name += "wu"
+    if name[-1]=="o": name += "wo"
+    if name[-1]=="U": name += "wU"
+    if name[-1]=="O": name += "wO"
     await ctx.send(f"Hallo *{ctx.author.name}*~")
 
   
