@@ -13,7 +13,7 @@ class Greetings(commands.Cog):
     if name[-1]=="o": name += "wo"
     if name[-1]=="U": name += "wU"
     if name[-1]=="O": name += "wO"
-    await ctx.send(f"Hallo *{ctx.author.name}*~")
+    await ctx.send(f"Hallo *{name}*~")
 
   
 
