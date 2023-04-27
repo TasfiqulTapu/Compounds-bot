@@ -1,0 +1,7 @@
+for_swas.json
+for_swas.py
+void.py
+venv
+.config
+__pycache__
+cogs/__pycache__
